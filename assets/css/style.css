@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+li {
+    list-style-type: none;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #fff;
+    margin: 20px 0;
+}
+
+button {
+    border-radius: 5px;
+}
+
+/* ======== Header ======== */
+
+#header {
+    padding: 32px 16px;
+    text-align: center;
+}
+
+#header h1 {
+    margin: 10px 0px;
+    font-weight: normal;
+    font-size: 36px;
+}
+
+#header p {
+    margin: 10px 0px;
+    font-size: 15px;
+}
+
+#header span {
+    background: #000;
+    color: #fff;
+    padding: 4px 8px;
+}
+
+/* ======== Content ======== */
+
+#content {
+    display: flex;
+}
+
+.content {
+    padding: 16px;
+}
+
+#content .post__info {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+#content .post__info img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#content .post__info-text {
+    padding: 0px 16px;
+    font-size: 15px;
+}
+
+#content .post__info-text h3 {
+    margin: 10px 0px;
+    font-size: 24px;
+}
+
+#content .post__info-text h5 {
+    margin: 10px 0px;
+    font-size: 18px;
+}
+
+#content .post__info-text h5 span {
+    opacity: 0.6;
+}
+
+#content .post__info-text p {
+    line-height: 1.5;
+    font-size: 15px;
+    text-align: justify;
+    margin: 15px 0px;
+}
+
+#content .text-send {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px;
+    font-family: "Raleway", sans-serif;
+}
+
+#content .text-send button {
+    padding: 12px 24px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    background: #fff;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+#content .text-send button:hover {
+    cursor: pointer;
+    background: #ccc;
+}
+
+#content .text-send > span {
+    padding: 12px 24px;
+}
+
+#content .text-send .number-cmt {
+    display: inline-block;
+    width: 29px;
+    height: 29px;
+    background: #000;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 12px;
+}
+
+#content .content__info-myself img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#content .text {
+    padding: 8px 16px;
+}
+
+#content .info-myself-text {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+#content .info-myself-text h4 {
+    margin: 10px 0px;
+    font-size: 20px;
+}
+
+#content .info-myself-text p {
+    line-height: 1.5;
+    font-size: 15px;
+    text-align: justify;
+    margin: 15px 0px;
+}
+
+#content .content__info-popular {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+#content .text {
+    background: #eee;
+}
+
+#content .text h4 {
+    margin: 12px 0px;
+    font-size: 22px;
+}
+
+#content .popular-posts-list li {
+    padding: 16px;
+    display: flex;
+    border-bottom: 1px solid #ddd;
+    height: 83px;
+}
+
+#content .popular-posts-list li:hover {
+    background: #ddd;
+}
+
+#content .popular-posts-list img {
+    margin-right: 15px; 
+}
+
+#content .popular-posts-list h5 {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+#content .popular-posts-list p {
+    font-size: 16px;
+}
+
+#content .content__info-tags {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+#content .content__info-tags .tags-list {
+    padding: 0px 16px;
+    font-size: 15px;
+}
+
+#content .tags-list p {
+    margin: 10px 0px;
+}
+
+#content .tags-list span {
+    background: #eee;
+    padding: 0px 8px;
+    margin-bottom: 16px;
+    font-size: 15px;
+    display: inline-block;
+    text-align: justify;
+}
+
+
+/* ======== Footer ======== */
+#footer {
+    margin-top: 16px;
+    padding: 32px 16px;
+    color: #fff;
+    background: #616161;
+}
+
+#footer button {
+    margin-bottom: 16px;
+    padding: 12px 24px;
+    color: #fff;
+    background: #000;
+    font-size: 17px;
+    border: none;
+}
+
+#footer .previous {
+    opacity: 0.6;
+}
+
+#footer .previous:hover {
+    color: #000;
+    background-color: #ccc;
+    cursor: not-allowed;
+    opacity: 0.3;
+}
+
+#footer .next:hover {
+    color: #000;
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+/* ========= Responsive ========= */
+@media screen and (max-width: 992px) {
+    #content {
+        flex-wrap: wrap;
+    }
+
+    .content {
+        width: 100%;
+    }
+}
