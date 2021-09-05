@@ -59,7 +59,8 @@ button {
 }
 
 #content .post__info {
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2),
+                -5px 5px 8px rgba(0, 0, 0, 0.2);
 }
 
 #content .post__info img {
@@ -132,6 +133,11 @@ button {
     margin-left: 12px;
 }
 
+#content .content__info-myself {
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2),
+                -5px 5px 8px rgba(0, 0, 0, 0.2);
+}
+
 #content .content__info-myself img {
     width: 100%;
     height: auto;
@@ -140,10 +146,6 @@ button {
 
 #content .text {
     padding: 8px 16px;
-}
-
-#content .info-myself-text {
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
 }
 
 #content .info-myself-text h4 {
@@ -159,7 +161,8 @@ button {
 }
 
 #content .content__info-popular {
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2),
+                -5px 5px 8px rgba(0, 0, 0, 0.2);
 }
 
 #content .text {
@@ -196,7 +199,8 @@ button {
 }
 
 #content .content__info-tags {
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2),
+                -5px 5px 8px rgba(0, 0, 0, 0.2);
 }
 
 #content .content__info-tags .tags-list {
@@ -250,6 +254,10 @@ button {
     color: #000;
     background-color: #ccc;
     cursor: pointer;
+}
+
+#footer a {
+    color: #fff;
 }
 
 /* ========= Responsive ========= */
